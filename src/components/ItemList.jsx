@@ -5,25 +5,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { LaptopWindowsTwoTone } from "@material-ui/icons";
 
 function ItemList (){
-    const arrProducts = [ {
-        nombre: "Cheese",
-        id:1,
-        url: "https://images.rappi.com.ar/products/f38f5c0d-2456-43c3-b141-ddf21c51fad7-1616771261753.jpeg?d=128x90&e=webp" ,
-        descripcion: "Hamburguesa simple con panceta",
-      }
-      ,{
-        nombre: "Fried Onion",
-        id:2,
-        url: "https://images.rappi.com.ar/products/85ccfd0d-c1d2-4509-82fe-6ed6873c7cfd-1616771288128.jpeg?d=128x90&e=webp" ,
-        descripcion: "Hamburguesa simple con cebolla",
-      }
-      ,{
-        nombre: "Bacon",
-        id:3,
-        url: "https://images.rappi.com.ar/products/94476e1d-4765-47f2-8299-b1908ffcef50-1616771358349.jpeg?d=128x90&e=webp" ,
-        descripcion: "Hamburguesa simple con bacon",
-      }
-     ]
+  const arrProducts = [ {
+      nombre: "Simple Burger + Papas Fritas",
+      id:1,
+      url: "https://bigpons.com.ar/productos/20210422173531.jpeg" ,
+      descripcion: "Medallon x1 Cheddar Feta x2",
+    }
+    ,{
+      nombre: "STACKED BACON + PAPAS FRITAS",
+      id:2,
+      url: "https://bigpons.com.ar/productos/20210423150815.jpeg" ,
+      descripcion: "Medallón de x 2 + Cheddar fetas x 4 + Bacon ahumado por nosotros x 4 fetas + Relish sauce + Papas fritas",
+    }
+    ,{
+      nombre: "Cheese Burger Triple + Papas Fritas",
+      id:3,
+      url: "https://bigpons.com.ar/productos/20210423145846.jpeg" ,
+      descripcion: "Medallon x3 Cheddar Fetas x6",
+    }
+   ]
 
     const [productos, setProductos]= useState([]);
 

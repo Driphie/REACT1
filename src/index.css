@@ -1,5 +1,7 @@
+*{
+  font-family: Arial, Helvetica, sans-serif
+}
 .App {
-  font-family: sans-serif;
   text-align: center;
 }
 .NavBar ul{
@@ -17,7 +19,6 @@
   background-color: #dddddd;
   text-decoration: none;
   color:black;
-
 }
 .logobump{
   position: absolute;
@@ -25,18 +26,18 @@
   margin-right: auto;
   width: 15%;
 }
-
 .carrito{
   width: 13%;
   position: relative;
-  top: 0px;
-  
+  top: 0px; 
+}
+.Carrito h1{
+  font-family: 'Courier New', Courier, monospace;
 }
 .Contenedor h1{
   font-size: 12px;
-  font: sans serif;
+  font: Helvetica;
  float:right;
-
 }
 
 .Suma{
@@ -84,7 +85,7 @@
   .titulo{
     text-align: center;
     font-size: 48px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
 
   }
   .card-body{
@@ -109,6 +110,11 @@
     }
     .Carrito{
       text-align: center;     
-      
+      height:100vh;
+      background-image: url(https://bigpons.com.ar/bigpons/images/Sweet%20N%20Spicy%20real%20desktop.png);
+      background-size:100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
     }
   

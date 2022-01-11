@@ -14,7 +14,7 @@ function Inicio(){
     return(
       <>
       <div className="Carrito">
-    <h1>Somos Hamburguesas Capital Federal</h1>
+    <h1>Somos BIG PONS</h1>
     <br />
     <br />
     <br />
