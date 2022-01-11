@@ -1,0 +1,114 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.NavBar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.NavBar li{
+  float: left;
+}
+.NavBar a{
+  display: inline;
+  padding: 8px;
+  background-color: #dddddd;
+  text-decoration: none;
+  color:black;
+
+}
+.logobump{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.carrito{
+  width: 13%;
+  position: relative;
+  top: 0px;
+  
+}
+.Contenedor h1{
+  font-size: 12px;
+  font: sans serif;
+ float:right;
+
+}
+
+.Suma{
+  background-color: red;
+  border-radius: 6px;
+  color:white;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top:200px;
+
+}
+
+.Resta{
+
+    background-color: red;
+    border-radius: 6px;
+    color:white;
+    margin-left: 55%;
+    transform: translateX(-50%);
+    position: absolute;
+    top:200px;
+  
+  }
+  .numero{
+
+    background-color: red;
+    border-radius: 6px;
+    color:white;
+    margin-left: 52%;
+    transform: translateX(20%);
+    position: absolute;
+    top:185px;
+  
+  }
+  .card{
+    width:13.5rem;
+    padding:12px;
+    flex-direction: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+ 
+  }
+  .titulo{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .card-body{
+    text-align: center;
+
+
+  }
+  .card1{
+    width:40.5rem;
+    padding:12px;
+      margin-left: 20px;
+ 
+  }
+  .contador{
+  display: inline-block;
+  width: 20%;
+  }
+  .contador2{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    }
+    .Carrito{
+      text-align: center;     
+      
+    }
+  
